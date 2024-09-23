@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(236, 184, 41);
+    color: white;
+}
+
+.jumbotron {
+    /* background-image: url(./assets/gedung\ SIJA.jpg); */
+    /* background-size: cover; */
+    background-position: 0 -200px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-top: 5px solid rgb(236, 184, 41); 
+    border-bottom: 5px solid rgb(136, 131, 122);
+}
+
+.jaringan {
+    color: rgb(236, 184, 41);
+}
+
+.aplikasi {
+    color: rgb(136, 131, 122);
+    font-family: 'Antonio', sans-serif;
+}
+
+
+div .col img {
+    align-items: center;
+}
+
+/* footer */
+.footer p {
+    margin-bottom: 0;
+    color: rgb(192, 192, 192);
+}
+
+.footer a {
+    text-decoration: none;
+}
